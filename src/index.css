@@ -6,11 +6,47 @@
   @apply box-border p-0 m-0
 }
 section{
-  @apply w-screen h-screen bg-blue-900 grid place-items-center 
+  @apply w-screen h-screen bg-[indigo] grid place-items-center 
 }
 .imgWrapper img{
-  @apply w-[25rem] h-[25rem]
+  transition: all 0.8s linear;
+  @apply w-[30rem] h-[30rem] hover:scale-[1.1] 
 }
-.imgWrapper{
-  @apply w-[30rem] 
+.imgs{
+  @apply w-[30rem] h-[30rem] overflow-x-hidden overflow-y-hidden
 }
+figcaption{
+  @apply text-center text-[1rem]
+}
+button{
+  transition: all 0.2s linear;
+  @apply bg-rose-100 text-[black] hover:bg-[green] hover:text-[white] px-2 rounded-3xl text-[2rem]
+}
+span{
+  border-left: 2rem solid black;
+  border-top: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+  display: block;
+  transition: all 0.2s linear;
+
+}
+button:hover span{
+  border-left: 2rem solid white;
+  border-right: .5rem solid transparent;
+
+}
+button:first-of-type span{
+  border-right: 2rem solid black;
+  border-top: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+  border-left: 0rem solid white;
+  display: block;
+}
+button:first-of-type:hover span{
+  border-right: 2rem solid white;
+  border-left: .5rem solid transparent;
+
+}
+ h1{
+  @apply text-[antiquewhite] text-[2rem]
+} 
