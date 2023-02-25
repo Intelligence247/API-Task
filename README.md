@@ -1,4 +1,3 @@
-<!-- https://delicate-cranachan-ef37a9.netlify.app -->
 #  API-Task
 *An implementation of API-Task clone with `React` and `TailwindCss`*
 ## Prequisite
@@ -9,7 +8,7 @@
 - TailwindCss
 - React
 ## Preview here
-[Go Live](https://stellar-gingersnap-42765a.netlify.app)
+[Go Live](https://delicate-cranachan-ef37a9.netlify.app)
 
 ![screenshot](/public/sketch.png)
 ## Contact

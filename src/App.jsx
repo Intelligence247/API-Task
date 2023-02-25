@@ -55,7 +55,7 @@ const rand= Math.floor(Math.random()*pic.length)
    <button onClick={handleAdd}><span></span></button>
       <div className="imgWrapper">
         <div className="imgs">
-   <img src={pic[navigate].url} alt="" />
+   <img src={pic[navigate].url} alt={pic[navigate].name} />
    </div>
    <figcaption style={{color:`${color}`}}>{pic[navigate].name}</figcaption>
    </div>
