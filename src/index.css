@@ -20,7 +20,7 @@ figcaption{
 }
 button{
   transition: all 0.2s linear;
-  @apply bg-rose-100 text-[black] hover:bg-[green] hover:text-[white] px-2 rounded-3xl text-[2rem]
+  @apply bg-orange-400 text-[black] hover:bg-[green] hover:text-[white] px-2 rounded-3xl text-[2rem]
 }
 span{
   border-left: 2rem solid black;
