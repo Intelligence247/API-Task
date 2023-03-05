@@ -6,7 +6,7 @@
   @apply box-border p-0 m-0
 }
 section{
-  @apply w-screen h-screen bg-[indigo] grid place-items-center 
+  @apply w-screen h-screen bg-[green] grid place-items-center 
 }
 .imgWrapper img{
   transition: all 0.8s linear;
@@ -16,37 +16,37 @@ section{
   @apply w-[30rem] h-[30rem] overflow-x-hidden overflow-y-hidden
 }
 figcaption{
-  @apply text-center text-[1rem]
+  @apply text-center text-[1.2rem] text-[#a79a9a]
 }
 button{
   transition: all 0.2s linear;
-  @apply bg-orange-400 text-[black] hover:bg-[green] hover:text-[white] px-2 rounded-3xl text-[2rem]
+  @apply  px-2 text-[2rem] h-[5rem]  
 }
 span{
-  border-left: 2rem solid black;
-  border-top: 2rem solid transparent;
-  border-bottom: 2rem solid transparent;
+  border-left: 1.5rem solid black;
+  border-top: 1.5rem solid transparent;
+  border-bottom: 1.5rem solid transparent;
   display: block;
   transition: all 0.2s linear;
 
 }
 button:hover span{
-  border-left: 2rem solid white;
-  border-right: .5rem solid transparent;
+  border-left: 1.5rem solid white;
 
 }
 button:first-of-type span{
-  border-right: 2rem solid black;
-  border-top: 2rem solid transparent;
-  border-bottom: 2rem solid transparent;
+  border-right: 1.5rem solid black;
+  border-top: 1.5rem solid transparent;
   border-left: 0rem solid white;
   display: block;
 }
 button:first-of-type:hover span{
-  border-right: 2rem solid white;
-  border-left: .5rem solid transparent;
-
+  border-right: 1.5rem solid white;
 }
+
+
  h1{
-  @apply text-[antiquewhite] text-[2rem]
+  background: linear-gradient(180deg, red,rgb(100, 7, 221), yellow);
+    @apply text-[antiquewhite] text-[2.5rem] text-transparent bg-clip-text 
 } 
+
